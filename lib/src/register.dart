@@ -114,7 +114,6 @@ class _MyRegisterWidget extends State<RegisterWidget>
     settings.dtmfMode = DtmfMode.RFC2833;
 
     helper!.start(settings);
-    helper!.register();
   }
 
   @override
